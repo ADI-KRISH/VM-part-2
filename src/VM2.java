@@ -5,8 +5,8 @@ import java.util.List;
 
 
 public class VM2 {
-    public static final String INPUT = "C:\\Users\\GS Adithya Krishna\\Documents\\java programmes\\VM_Part_2\\src\\codeinput.txt";
-    public static final String OUTPUT = "C:\\Users\\GS Adithya Krishna\\Documents\\java programmes\\VM_Part_2\\src\\codeoutput.txt";
+    public static final String INPUT = "Input file path";
+    public static final String OUTPUT = "Output file path";
 
     public static void main(String[] args) throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(INPUT));
